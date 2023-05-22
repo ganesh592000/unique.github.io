@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.bestinfo.com</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100vh;
+    background-color:  #120702;
+    /*background-image:url(imgeH/piccc.jpeg) ;*/
+    background-size: cover;
+    background-position: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(243, 179, 97);
+    font-size: 1rem;
+}
+a:hover{
+    color: rgb(244, 32, 8);
+}
+
+/*Header*/
+header{
+    position: relative;
+    padding: 0.2rem;
+}
+.resume{
+
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn{
+    color: blue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action_btn{
+    background-color: rgb(226, 235, 232);
+    color: rgb(241, 84, 108);
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale 0.2 ease;
+}
+
+.action_btn:hover{
+    scale: 1.05;
+    color: rgb(6, 12, 12);
+}
+
+.action_btn:active{
+    scale: 0.95;
+}
+
+/* Dropdoun Menu*/
+
+.dropdown_menu{
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    background: turquoise;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;overflow: hidden;
+}
+
+/* body part*/
+.Himg{
+    margin-left: 850px;
+    margin-top: 101px;
+    height: 380px;
+    width: 340px;
+    border-radius: 50%;
+    /*box-shadow: 0 1.1rem 2rem 0.2rem rgb(90, 246, 228);*/
+    box-shadow:  0 0 15px rgb(27, 175, 255),
+   0 0 45px rgb(240, 78, 151), 0 0 80px rgb(237, 130, 37),
+   0 0 140px rgb(133, 156, 238), 0 0 260px rgb(232, 95, 237);
+}
+
+.row{
+    margin-left: 250px;
+    margin-top: -260px;
+    font-size: 60px;
+    color: rgb(253, 246, 246);
+    text-shadow: 2px 3px rgb(246, 193, 193);
+}
+.row1{
+    margin-left: 18rem;
+    margin-top: 1rem;
+    color: rgb(139, 191, 243);
+    font-size: 31px;
+    text-shadow: 0.1px 0.2px rgb(170, 232, 239);
+}
+
+/* Besic information*/
+.section1{
+    transition: all 0.1s linear;
+}
+
+.section1 p{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 21px;
+    color: aliceblue;
+}
+.section2{
+
+}
+.seading2{
+    color: darkgrey;
+    margin-top: -75px;
+    font-size: 29px;
+    margin-left: 6rem;
+}
+.seading2:hover{
+   color: aqua;
+   font-size: 40px;
+}
+.heading{
+    margin-left: 4rem;
+    margin-top: 16rem;
+    font-size: 39px;
+    color: thistle;
+}
+
+.web{
+    margin-left: 40rem;
+    margin-top: 6rem;
+    height: 20rem;
+    width: 19rem;
+    border-radius:10%;
+    box-shadow:0 1.1rem 2rem 0.2rem white;
+
+}
+.raj1{
+    margin-top: 5rem;
+    margin-left: 34rem;
+    border-radius:10%;
+}
+h2{
+    color: azure;
+    margin-left: 2rem;
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+.picc
+{
+    border-radius: 25px;
+    /*box-shadow: 0 1.8rem 5rem 0.8rem rgb(233, 9, 35);*/
+    box-shadow:  0 0 5px rgb(236, 101, 162),
+   0 0 45px rgb(250, 19, 19), 0 0 80px white,
+   0 0 140px white, 0 0 260px rgb(246, 205, 205);
+}
+
+@media screen and (max-width:600px){
+
+     /*Header*/
+     header{
+        position: relative;
+        padding: 0.2rem;
+    }
+    .resume{
+    
+    }
+    .navbar{
+        width: 31%;
+        height: 50px;
+        max-width: 900px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .navbar .logo a{
+        font-size: 0.9rem;
+        margin-left: -5rem;
+        
+    }
+    
+    .navbar .links{
+        display: flex;
+        gap: 2rem;
+    }
+    .navbar .toggle_btn{
+        color: blue;
+        font-size: 1rem;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .action_btn{
+        background-color: rgb(226, 235, 232);
+        color: rgb(241, 84, 108);
+        padding: 0.5rem 0.6rem;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: scale 0.2 ease;
+        margin-left: -19rem;
+    margin-top: 10rem;
+    }
+    
+    .action_btn:hover{
+        scale: 1.05;
+        color: azure;
+    }
+    
+    .action_btn:active{
+        scale: 0.95;
+    }
+    
+    /* Dropdoun Menu*/
+    
+    .dropdown_menu{
+        position: absolute;
+        right: 2rem;
+        top: 60px;
+        width: 300px;
+        background: turquoise;
+        backdrop-filter: blur(15px);
+        border-radius: 10px;overflow: hidden;
+    }
+    
+    /* body part*/
+    .Himg{
+        margin-left: 5rem;
+    margin-top: 10rem;
+    height: 200px;
+    width: 200px;
+    border-radius: 90%;
+        box-shadow:  0 0 15px rgb(27, 175, 255),
+       0 0 45px rgb(240, 78, 151), 0 0 80px rgb(237, 130, 37),
+       0 0 140px rgb(133, 156, 238), 0 0 260px rgb(232, 95, 237);
+    }
+    
+    .row{
+        margin-left: 6rem;
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        color: cornsilk;
+        font-family: cursive;
+    }
+    .row1{
+        margin-left: 7rem;
+        margin-top: 1rem;
+        color: aquamarine;
+        font-size: 15px;
+    }
+    
+    /* Besic information*/
+    .section1{
+        transition: all 0.1s linear;
+    }
+    
+    .section1 p{
+        margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 14px;
+    color: aliceblue;
+    }
+    .section2{
+    
+    }
+    .seading2{
+        color: lightcyan;
+    margin-top: -81px;
+    font-size: 20px;
+    margin-left: 5rem;
+    }
+    .heading{
+        margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 24px;
+    color: skyblue;
+    }
+    
+    .web{
+        margin-left: 40rem;
+        margin-top: 6rem;
+        height: 20rem;
+        width: 19rem;
+        border-radius:10%;
+        box-shadow:0 1.1rem 2rem 0.2rem white;
+    
+    }
+    .raj1{
+        margin-top: 5rem;
+        margin-left: 6rem;
+        border-radius: 10%;
+    }
+    h2{
+        color: azure;
+        margin-left: 1.2rem;
+        font-size: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 7rem;
+    }
+    .picc
+    {
+        border-radius: 25px;
+        box-shadow: 0 1.8rem 5rem 0.8rem rgb(233, 9, 35);
+        height:150px;
+        width:150px; 
+        box-shadow:  0 0 5px rgb(236, 101, 162),
+       0 0 45px rgb(250, 19, 19), 0 0 80px white,
+       0 0 140px white, 0 0 260px rgb(246, 205, 205);
+    
+    }
+
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">bestinfo</a></div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+            <a href="resume.html" class="action_btn">viwe Resume</a>
+            <div class="toggle_btn">
+                
+            </div>
+        </div>
+    </header>
+    <body class="container">
+        <img class="Himg" src="portfoli img/Ganesh p.jpg" height="400px" width="400px">
+        <h1 class="row">Ganesh Sale</h1>
+        <h2 class="row1">I am a Devloper...</h2>
+        <p class="row2"></p>
+        
+    </body>
+    <section class="section1">
+         <div class="section2">
+         <h2 class="heading"> Basic information.....</h2>
+         <h3 class="seading2"> skills..... </h3>
+         <p>Seeking a challenging position ia a reputed<br>
+             Organization where I can learn new skills<br>
+            Expand my knowledge, and leverage my learning.<br>
+            I have completed some course....</p>
+         </div>
+         <div class="raj1">
+         <div class="raj">
+            <img class="picc" src="portfoli img/Web-Design.jpeg" height="400px" width="500px" alt="">
+            <i><h2>Web Desigen</h2></i>
+            
+         </div>
+         <div class="raj">
+            <img class="picc" src="portfoli img/Java.webp" height="400px" width="500px" alt="">
+            <i><h2>Java</h2></i>
+           
+         </div>
+         <div class="raj">
+            <img  class="picc" src="portfoli img/Ad java.jpg" height="400px" width="500px" alt="">
+            <i><h2>Advance Java</h2></i>
+         </div>
+         <div class="raj">
+            <img class="picc" src="portfoli img/Angular.webp" height="400px" width="500px" alt="">
+            <i><h2>Angular</h2></i>
+            
+         </div>
+         <div class="raj">
+            <img class="picc" src="portfoli img/SQL.jpg" height="400px" width="500px" alt="">
+            <i><h2>SQL</h2></i>
+         </div>
+         <div class="raj">
+            <img class="picc" src="portfoli img/Spring-Boot.webp" height="400px" width="500px" alt="">
+            <i><h2>Spring-Boot</h2></i>
+         </div>
+        </div>
+    </section>
+</body>
+</html>

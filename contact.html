@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>www.bestinfo.com</title>
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+}
+/*body{
+    background-color: rgb(27, 22, 16);
+    font-family: 'Courier New', Courier, monospace;
+}*/
+
+.content-box{
+    width: 500px;
+    background-color: rgb(223, 211, 219);
+    box-shadow: 0 0 1px white,
+   0 0 5px white, 0 0 2px white,
+   0 0 10px white, 0 0 60px white;;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 20px;
+}
+
+.input-field{
+    width: 450px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 16px;
+    border: 1px solid #777;
+    border-radius: 18px;
+    outline: none;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn{
+    border-radius: 20px;
+    color:cyan;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: black;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 170px;
+}
+.btn:hover{
+    box-shadow: 0 0 10px black,
+   0 0 35px black, 0 0 60px black,
+   0 0 120px black, 0 0 240px black;
+}
+
+/*-------------navbar--------*/
+body{
+    height: 100vh;
+    background-color:  #120702;
+    /*background-image:url(imgeH/piccc.jpeg) ;*/
+    background-size: cover;
+    background-position: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(243, 179, 97);
+    font-size: 1rem;
+}
+a:hover{
+    color: rgb(244, 32, 8);
+}
+
+/*Header*/
+header{
+    position: relative;
+    padding: 0.2rem;
+}
+.resume{
+
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+.navbar .toggle_btn{
+    color: blue;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+.con{
+    color: aqua;
+    margin-left: 31rem;
+    margin-top: 75px;
+}
+.con{
+    
+}
+
+@media screen and (max-width:600px){
+
+/*Header*/
+header{
+   position: relative;
+   padding: 0.2rem;
+}
+.resume{
+
+}
+.navbar{
+   width: 84%;
+   height: 50px;
+   max-width: 900px;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.navbar .logo a{
+   font-size: 0.9rem;
+   margin-left: -1rem;
+   
+}
+
+.navbar .links{
+   display: flex;
+   gap: 2rem;
+}
+.navbar .toggle_btn{
+   color: blue;
+   font-size: 1rem;
+   cursor: pointer;
+   display: none;
+}
+
+.action_btn{
+   background-color: rgb(226, 235, 232);
+   color: rgb(241, 84, 108);
+   padding: 0.5rem 0.6rem;
+   border: none;
+   outline: none;
+   border-radius: 20px;
+   font-size: 0.8rem;
+   font-weight: bold;
+   cursor: pointer;
+   transition: scale 0.2 ease;
+   margin-left: -19rem;
+margin-top: 10rem;
+}
+
+.action_btn:hover{
+   scale: 1.05;
+   color: azure;
+}
+
+.action_btn:active{
+   scale: 0.95;
+}
+
+/* boxxxx   */
+
+.content-box{
+    width: 305px;
+    background-color:cyan;
+    box-shadow:0 0 1px cyan,
+   0 0 5px cyan, 0 0 2px cyan,
+   0 0 10px cyan, 0 0 60px cyan;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 20px;
+}
+
+.input-field{
+    width: 256px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 16px;
+    border: 1px solid #777;
+    border-radius: 18px;
+    outline: none;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn{
+    border-radius: 20px;
+    color:black;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-left: 84px;
+}
+
+.btn:hover{
+    box-shadow: 0 0 10px antiquewhite,
+   0 0 35px antiquewhite, 0 0 60px antiquewhite,
+   0 0 120px antiquewhite, 0 0 240px antiquewhite;
+}
+
+
+
+/* btnnnn   */
+
+.con{
+    color:  oldlace;
+    margin-left: 5rem;
+    margin-top: 22px;
+}
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">bestinfo</a></div>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+            <div class="toggle_btn">
+                
+            </div>
+        </div>
+    </header>
+    <div class="con">
+        <h1>Contact Me  </h1>
+    </div>
+    
+    <div class="content-box">
+        <form>
+            <input type="text" class="input-field" placeholder="Your Name">
+            <input type="text" class="input-field" placeholder="Your Email ">
+            <input type="text" class="input-field" placeholder="Subject">
+            <textarea type="text" class="input-field textarea-field" placeholder="your message"></textarea>
+            <button type="button" class="btn">Send Message</button>
+        </form>
+    </div>
+
+</body>
+</html>
